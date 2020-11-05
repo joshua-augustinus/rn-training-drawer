@@ -1,28 +1,23 @@
 import React from 'react';
-import { Button, Text, TextInput, TouchableOpacity, View } from 'react-native';
-import { createAppContainer, SafeAreaView } from 'react-navigation';
-import { BackContainer } from './components/BackContainer';
-import { createDrawerNavigator, DrawerActions, NavigationDrawerProp } from 'react-navigation-drawer';
-import { ActivityScreen } from './screens/ActivityScreen';
+import { Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { SafeAreaView } from 'react-navigation';
+import { DrawerActions, NavigationDrawerProp } from 'react-navigation-drawer';
 
-/**
- * https://reactnavigation.org/docs/4.x/typescript
- */
+
 type Props = {
     navigation: NavigationDrawerProp<{ userId: string, routeName: string }>;
 }
 
-class HomeScreen extends React.Component<Props> {
-    static navigationOptions = {}
+
+class ActivityScreen extends React.Component<Props> {
+    static navigationOptions = {
+        drawerLabel: null
+    }
 
     onMenuPress() {
         console.log(this.props.navigation.state);// { key: 'Home', routeName: 'Home' }
         console.log("Menu pressed");
         this.props.navigation.dispatch(DrawerActions.toggleDrawer());
-    }
-
-    onButtonPress() {
-        this.props.navigation.navigate("Activity");
     }
 
     render() {
@@ -39,7 +34,6 @@ class HomeScreen extends React.Component<Props> {
 
                     <Text>{this.props.navigation.state.routeName}</Text>
                     <TextInput placeholder="Enter text here..."></TextInput>
-                    <Button title="Press me" onPress={() => this.onMenuPress()}></Button>
                 </View>
             </SafeAreaView>
 
@@ -47,19 +41,4 @@ class HomeScreen extends React.Component<Props> {
     }
 }
 
-
-const RootStack = createDrawerNavigator({
-    Home: {
-        screen: HomeScreen
-    },
-    SecondScreen: {
-        screen: HomeScreen
-    },
-    Activity: {
-        screen: ActivityScreen
-    }
-});
-const AppContainer = createAppContainer(RootStack);
-
-// Now AppContainer is the main component for React to render
-export { AppContainer };
+export { ActivityScreen }
