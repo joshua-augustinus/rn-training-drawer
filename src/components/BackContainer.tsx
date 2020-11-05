@@ -4,10 +4,10 @@
 
 import React from "react"
 import { Text, View, TouchableOpacity } from "react-native"
-import { NavigationStackProp } from "react-navigation-stack";
+import { NavigationDrawerProp } from "react-navigation-drawer";
 
 interface Props {
-    navigation: NavigationStackProp<{}>;
+    navigation: NavigationDrawerProp<{}>;
 }
 
 const BackContainer = (props: Props) => {
