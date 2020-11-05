@@ -11,7 +11,7 @@ type Props = {
 
 class ActivityScreen extends React.Component<Props> {
     static navigationOptions = {
-        drawerLabel: null
+        drawerLabel: () => null
     }
 
     onMenuPress() {
