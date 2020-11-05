@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.awesomeapp">
+  package="com.training.drawer">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

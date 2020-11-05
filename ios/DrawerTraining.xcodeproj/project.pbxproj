@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* AwesomeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeAppTests.m */; };
+		00E356F31AD99517003FC87E /* DrawerTrainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DrawerTrainingTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +15,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* AwesomeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeAppTests.m */; };
-		839AF671D16B202AA050CAF4 /* libPods-AwesomeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C69203BEDD4694D2ECE30ACF /* libPods-AwesomeApp.a */; };
-		BD5A44F0E66E18DDCC71D6A3 /* libPods-AwesomeAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E56A216C51E971D68A2B0B7A /* libPods-AwesomeAppTests.a */; };
-		D39B11D59019A3027077CBAB /* libPods-AwesomeApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 656A4FE411E9895914DBF37A /* libPods-AwesomeApp-tvOS.a */; };
-		EC388FE595D23AF2C9F55349 /* libPods-AwesomeApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6355813F4F0CF60535CFEF0 /* libPods-AwesomeApp-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* DrawerTrainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DrawerTrainingTests.m */; };
+		839AF671D16B202AA050CAF4 /* libPods-DrawerTraining.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C69203BEDD4694D2ECE30ACF /* libPods-DrawerTraining.a */; };
+		BD5A44F0E66E18DDCC71D6A3 /* libPods-DrawerTrainingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E56A216C51E971D68A2B0B7A /* libPods-DrawerTrainingTests.a */; };
+		D39B11D59019A3027077CBAB /* libPods-DrawerTraining-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 656A4FE411E9895914DBF37A /* libPods-DrawerTraining-tvOS.a */; };
+		EC388FE595D23AF2C9F55349 /* libPods-DrawerTraining-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6355813F4F0CF60535CFEF0 /* libPods-DrawerTraining-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +28,14 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = AwesomeApp;
+			remoteInfo = DrawerTraining;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "AwesomeApp-tvOS";
+			remoteInfo = "DrawerTraining-tvOS";
 		};
 		423DF145254B8C8F004739ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -153,31 +153,31 @@
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* AwesomeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* DrawerTrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawerTrainingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* AwesomeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeAppTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* AwesomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AwesomeApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AwesomeApp/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* DrawerTrainingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawerTrainingTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* DrawerTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawerTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DrawerTraining/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DrawerTraining/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AwesomeApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeApp/main.m; sourceTree = "<group>"; };
-		24467182C89D65C21B9C3EE0 /* Pods-AwesomeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeApp.release.xcconfig"; path = "Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* AwesomeApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AwesomeApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* AwesomeApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AwesomeApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3435122D7BD16BD3F0B8ECF1 /* Pods-AwesomeApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-AwesomeApp-tvOS/Pods-AwesomeApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DrawerTraining/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DrawerTraining/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DrawerTraining/main.m; sourceTree = "<group>"; };
+		24467182C89D65C21B9C3EE0 /* Pods-DrawerTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerTraining.release.xcconfig"; path = "Target Support Files/Pods-DrawerTraining/Pods-DrawerTraining.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* DrawerTraining-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DrawerTraining-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* DrawerTraining-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DrawerTraining-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3435122D7BD16BD3F0B8ECF1 /* Pods-DrawerTraining-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerTraining-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DrawerTraining-tvOS/Pods-DrawerTraining-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		423DF132254B8C8E004739ED /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		4D42DCE02C6AB0CD9F728C37 /* Pods-AwesomeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeAppTests/Pods-AwesomeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		59974EAC04163ABE8BEC6B7F /* Pods-AwesomeApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeApp-tvOSTests/Pods-AwesomeApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6164DCD1C5C37BC9E2A9CF0F /* Pods-AwesomeApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeApp-tvOS/Pods-AwesomeApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		656A4FE411E9895914DBF37A /* libPods-AwesomeApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwesomeApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5E382C91F4DA9581BF7CB9F /* Pods-AwesomeApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-AwesomeApp-tvOSTests/Pods-AwesomeApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		BB7766FCBC164398A2A31DCE /* Pods-AwesomeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeAppTests.release.xcconfig"; path = "Target Support Files/Pods-AwesomeAppTests/Pods-AwesomeAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		C6355813F4F0CF60535CFEF0 /* libPods-AwesomeApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwesomeApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C69203BEDD4694D2ECE30ACF /* libPods-AwesomeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwesomeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD64AB9658E6641F60654374 /* Pods-AwesomeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeApp.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeApp/Pods-AwesomeApp.debug.xcconfig"; sourceTree = "<group>"; };
-		E56A216C51E971D68A2B0B7A /* libPods-AwesomeAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AwesomeAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D42DCE02C6AB0CD9F728C37 /* Pods-DrawerTrainingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerTrainingTests.debug.xcconfig"; path = "Target Support Files/Pods-DrawerTrainingTests/Pods-DrawerTrainingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		59974EAC04163ABE8BEC6B7F /* Pods-DrawerTraining-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerTraining-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DrawerTraining-tvOSTests/Pods-DrawerTraining-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6164DCD1C5C37BC9E2A9CF0F /* Pods-DrawerTraining-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerTraining-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DrawerTraining-tvOS/Pods-DrawerTraining-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		656A4FE411E9895914DBF37A /* libPods-DrawerTraining-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrawerTraining-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E382C91F4DA9581BF7CB9F /* Pods-DrawerTraining-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerTraining-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DrawerTraining-tvOSTests/Pods-DrawerTraining-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB7766FCBC164398A2A31DCE /* Pods-DrawerTrainingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerTrainingTests.release.xcconfig"; path = "Target Support Files/Pods-DrawerTrainingTests/Pods-DrawerTrainingTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6355813F4F0CF60535CFEF0 /* libPods-DrawerTraining-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrawerTraining-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69203BEDD4694D2ECE30ACF /* libPods-DrawerTraining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrawerTraining.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD64AB9658E6641F60654374 /* Pods-DrawerTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerTraining.debug.xcconfig"; path = "Target Support Files/Pods-DrawerTraining/Pods-DrawerTraining.debug.xcconfig"; sourceTree = "<group>"; };
+		E56A216C51E971D68A2B0B7A /* libPods-DrawerTrainingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrawerTrainingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -187,7 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD5A44F0E66E18DDCC71D6A3 /* libPods-AwesomeAppTests.a in Frameworks */,
+				BD5A44F0E66E18DDCC71D6A3 /* libPods-DrawerTrainingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839AF671D16B202AA050CAF4 /* libPods-AwesomeApp.a in Frameworks */,
+				839AF671D16B202AA050CAF4 /* libPods-DrawerTraining.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +203,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D39B11D59019A3027077CBAB /* libPods-AwesomeApp-tvOS.a in Frameworks */,
+				D39B11D59019A3027077CBAB /* libPods-DrawerTraining-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,20 +211,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC388FE595D23AF2C9F55349 /* libPods-AwesomeApp-tvOSTests.a in Frameworks */,
+				EC388FE595D23AF2C9F55349 /* libPods-DrawerTraining-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* AwesomeAppTests */ = {
+		00E356EF1AD99517003FC87E /* DrawerTrainingTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* AwesomeAppTests.m */,
+				00E356F21AD99517003FC87E /* DrawerTrainingTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = AwesomeAppTests;
+			path = DrawerTrainingTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -238,19 +238,19 @@
 		0A8CD436179912CD33EB85E5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DD64AB9658E6641F60654374 /* Pods-AwesomeApp.debug.xcconfig */,
-				24467182C89D65C21B9C3EE0 /* Pods-AwesomeApp.release.xcconfig */,
-				6164DCD1C5C37BC9E2A9CF0F /* Pods-AwesomeApp-tvOS.debug.xcconfig */,
-				3435122D7BD16BD3F0B8ECF1 /* Pods-AwesomeApp-tvOS.release.xcconfig */,
-				59974EAC04163ABE8BEC6B7F /* Pods-AwesomeApp-tvOSTests.debug.xcconfig */,
-				B5E382C91F4DA9581BF7CB9F /* Pods-AwesomeApp-tvOSTests.release.xcconfig */,
-				4D42DCE02C6AB0CD9F728C37 /* Pods-AwesomeAppTests.debug.xcconfig */,
-				BB7766FCBC164398A2A31DCE /* Pods-AwesomeAppTests.release.xcconfig */,
+				DD64AB9658E6641F60654374 /* Pods-DrawerTraining.debug.xcconfig */,
+				24467182C89D65C21B9C3EE0 /* Pods-DrawerTraining.release.xcconfig */,
+				6164DCD1C5C37BC9E2A9CF0F /* Pods-DrawerTraining-tvOS.debug.xcconfig */,
+				3435122D7BD16BD3F0B8ECF1 /* Pods-DrawerTraining-tvOS.release.xcconfig */,
+				59974EAC04163ABE8BEC6B7F /* Pods-DrawerTraining-tvOSTests.debug.xcconfig */,
+				B5E382C91F4DA9581BF7CB9F /* Pods-DrawerTraining-tvOSTests.release.xcconfig */,
+				4D42DCE02C6AB0CD9F728C37 /* Pods-DrawerTrainingTests.debug.xcconfig */,
+				BB7766FCBC164398A2A31DCE /* Pods-DrawerTrainingTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* AwesomeApp */ = {
+		13B07FAE1A68108700A75B9A /* DrawerTraining */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -261,7 +261,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = AwesomeApp;
+			name = DrawerTraining;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -269,10 +269,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				C69203BEDD4694D2ECE30ACF /* libPods-AwesomeApp.a */,
-				656A4FE411E9895914DBF37A /* libPods-AwesomeApp-tvOS.a */,
-				C6355813F4F0CF60535CFEF0 /* libPods-AwesomeApp-tvOSTests.a */,
-				E56A216C51E971D68A2B0B7A /* libPods-AwesomeAppTests.a */,
+				C69203BEDD4694D2ECE30ACF /* libPods-DrawerTraining.a */,
+				656A4FE411E9895914DBF37A /* libPods-DrawerTraining-tvOS.a */,
+				C6355813F4F0CF60535CFEF0 /* libPods-DrawerTraining-tvOSTests.a */,
+				E56A216C51E971D68A2B0B7A /* libPods-DrawerTrainingTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -311,9 +311,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* AwesomeApp */,
+				13B07FAE1A68108700A75B9A /* DrawerTraining */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* AwesomeAppTests */,
+				00E356EF1AD99517003FC87E /* DrawerTrainingTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				0A8CD436179912CD33EB85E5 /* Pods */,
@@ -326,10 +326,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* AwesomeApp.app */,
-				00E356EE1AD99517003FC87E /* AwesomeAppTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* AwesomeApp-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* AwesomeApp-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* DrawerTraining.app */,
+				00E356EE1AD99517003FC87E /* DrawerTrainingTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* DrawerTraining-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* DrawerTraining-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -337,9 +337,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* AwesomeAppTests */ = {
+		00E356ED1AD99517003FC87E /* DrawerTrainingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AwesomeAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DrawerTrainingTests" */;
 			buildPhases = (
 				4FDFD957848BA1FF6287ECA5 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -351,14 +351,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = AwesomeAppTests;
-			productName = AwesomeAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* AwesomeAppTests.xctest */;
+			name = DrawerTrainingTests;
+			productName = DrawerTrainingTests;
+			productReference = 00E356EE1AD99517003FC87E /* DrawerTrainingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* AwesomeApp */ = {
+		13B07F861A680F5B00A75B9A /* DrawerTraining */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AwesomeApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DrawerTraining" */;
 			buildPhases = (
 				683E74B3EB621B966E1014F0 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -371,14 +371,14 @@
 			);
 			dependencies = (
 			);
-			name = AwesomeApp;
-			productName = AwesomeApp;
-			productReference = 13B07F961A680F5B00A75B9A /* AwesomeApp.app */;
+			name = DrawerTraining;
+			productName = DrawerTraining;
+			productReference = 13B07F961A680F5B00A75B9A /* DrawerTraining.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* AwesomeApp-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* DrawerTraining-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AwesomeApp-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DrawerTraining-tvOS" */;
 			buildPhases = (
 				BB3B066B63E2A4A2BF9FE1A3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -391,14 +391,14 @@
 			);
 			dependencies = (
 			);
-			name = "AwesomeApp-tvOS";
-			productName = "AwesomeApp-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* AwesomeApp-tvOS.app */;
+			name = "DrawerTraining-tvOS";
+			productName = "DrawerTraining-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* DrawerTraining-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* AwesomeApp-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* DrawerTraining-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AwesomeApp-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DrawerTraining-tvOSTests" */;
 			buildPhases = (
 				2040B080E515288D04333A82 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -410,9 +410,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "AwesomeApp-tvOSTests";
-			productName = "AwesomeApp-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* AwesomeApp-tvOSTests.xctest */;
+			name = "DrawerTraining-tvOSTests";
+			productName = "DrawerTraining-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* DrawerTraining-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -439,7 +439,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AwesomeApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DrawerTraining" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -459,10 +459,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* AwesomeApp */,
-				00E356ED1AD99517003FC87E /* AwesomeAppTests */,
-				2D02E47A1E0B4A5D006451C7 /* AwesomeApp-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* AwesomeApp-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* DrawerTraining */,
+				00E356ED1AD99517003FC87E /* DrawerTrainingTests */,
+				2D02E47A1E0B4A5D006451C7 /* DrawerTraining-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* DrawerTraining-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -646,7 +646,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AwesomeApp-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DrawerTraining-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -682,7 +682,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AwesomeAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DrawerTrainingTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -704,7 +704,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AwesomeApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DrawerTraining-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -726,7 +726,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AwesomeApp-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DrawerTraining-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -778,7 +778,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* AwesomeAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* DrawerTrainingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -804,7 +804,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* AwesomeAppTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* DrawerTrainingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,12 +813,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* AwesomeApp */;
+			target = 13B07F861A680F5B00A75B9A /* DrawerTraining */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* AwesomeApp-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* DrawerTraining-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -830,7 +830,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = AwesomeApp;
+			path = DrawerTraining;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -838,14 +838,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D42DCE02C6AB0CD9F728C37 /* Pods-AwesomeAppTests.debug.xcconfig */;
+			baseConfigurationReference = 4D42DCE02C6AB0CD9F728C37 /* Pods-DrawerTrainingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AwesomeAppTests/Info.plist;
+				INFOPLIST_FILE = DrawerTrainingTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -855,17 +855,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwesomeApp.app/AwesomeApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawerTraining.app/DrawerTraining";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB7766FCBC164398A2A31DCE /* Pods-AwesomeAppTests.release.xcconfig */;
+			baseConfigurationReference = BB7766FCBC164398A2A31DCE /* Pods-DrawerTrainingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = AwesomeAppTests/Info.plist;
+				INFOPLIST_FILE = DrawerTrainingTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -875,18 +875,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwesomeApp.app/AwesomeApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawerTraining.app/DrawerTraining";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD64AB9658E6641F60654374 /* Pods-AwesomeApp.debug.xcconfig */;
+			baseConfigurationReference = DD64AB9658E6641F60654374 /* Pods-DrawerTraining.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = AwesomeApp/Info.plist;
+				INFOPLIST_FILE = DrawerTraining/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -894,18 +894,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AwesomeApp;
+				PRODUCT_NAME = DrawerTraining;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24467182C89D65C21B9C3EE0 /* Pods-AwesomeApp.release.xcconfig */;
+			baseConfigurationReference = 24467182C89D65C21B9C3EE0 /* Pods-DrawerTraining.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = AwesomeApp/Info.plist;
+				INFOPLIST_FILE = DrawerTraining/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -913,14 +913,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AwesomeApp;
+				PRODUCT_NAME = DrawerTraining;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6164DCD1C5C37BC9E2A9CF0F /* Pods-AwesomeApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 6164DCD1C5C37BC9E2A9CF0F /* Pods-DrawerTraining-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -931,14 +931,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "AwesomeApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "DrawerTraining-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AwesomeApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.DrawerTraining-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -948,7 +948,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3435122D7BD16BD3F0B8ECF1 /* Pods-AwesomeApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = 3435122D7BD16BD3F0B8ECF1 /* Pods-DrawerTraining-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -959,14 +959,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "AwesomeApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "DrawerTraining-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AwesomeApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.DrawerTraining-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -976,7 +976,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59974EAC04163ABE8BEC6B7F /* Pods-AwesomeApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 59974EAC04163ABE8BEC6B7F /* Pods-DrawerTraining-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -986,24 +986,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "AwesomeApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "DrawerTraining-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AwesomeApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.DrawerTraining-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwesomeApp-tvOS.app/AwesomeApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawerTraining-tvOS.app/DrawerTraining-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5E382C91F4DA9581BF7CB9F /* Pods-AwesomeApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = B5E382C91F4DA9581BF7CB9F /* Pods-DrawerTraining-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1013,17 +1013,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "AwesomeApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "DrawerTraining-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AwesomeApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.DrawerTraining-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwesomeApp-tvOS.app/AwesomeApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawerTraining-tvOS.app/DrawerTraining-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1130,7 +1130,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AwesomeAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DrawerTrainingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1139,7 +1139,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AwesomeApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DrawerTraining" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1148,7 +1148,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AwesomeApp-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DrawerTraining-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1157,7 +1157,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AwesomeApp-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DrawerTraining-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1166,7 +1166,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AwesomeApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DrawerTraining" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

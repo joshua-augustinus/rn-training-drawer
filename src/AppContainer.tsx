@@ -1,11 +1,9 @@
 import React from 'react';
-import { Text, View } from 'react-native';
-import { TouchableOpacity } from 'react-native-gesture-handler';
+import { Text, TouchableOpacity, View } from 'react-native';
 import { createAppContainer, SafeAreaView } from 'react-navigation';
-import { createStackNavigator } from 'react-navigation-stack';
-import { getEmptyNavigationOptions, getNavigationOptions } from './HeaderHelper';
 import { NavigationStackProp } from 'react-navigation-stack';
 import { BackContainer } from './comopnents/BackContainer';
+import { createDrawerNavigator, DrawerActions } from 'react-navigation-drawer';
 
 /**
  * https://reactnavigation.org/docs/4.x/typescript
@@ -15,11 +13,23 @@ type Props = {
 }
 
 class HomeScreen extends React.Component<Props> {
+    static navigationOptions = {}
 
+    onMenuPress() {
+        console.log("Menu pressed");
+        this.props.navigation.dispatch(DrawerActions.toggleDrawer());
+    }
 
     render() {
         return (
             <SafeAreaView style={{ flex: 1 }}>
+                <View style={{ height: 50, backgroundColor: 'red', flexDirection: 'row', alignItems: 'center' }}>
+
+                    <TouchableOpacity style={{ backgroundColor: 'yellow' }}
+                        onPress={() => this.onMenuPress()}>
+                        <Text>Menu</Text>
+                    </TouchableOpacity>
+                </View>
                 <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
                     <TouchableOpacity onPress={() => { this.props.navigation.navigate("SecondScreen", { userId: '1234' }) }}>
                         <Text>Home Screen</Text>
@@ -33,6 +43,7 @@ class HomeScreen extends React.Component<Props> {
 }
 
 const SecondScreen = (props: Props) => {
+
     const userId = props.navigation.getParam('userId', 'defaultUserId');
     return (
         <SafeAreaView style={{ flex: 1 }}>
@@ -42,18 +53,12 @@ const SecondScreen = (props: Props) => {
     )
 }
 
-const RootStack = createStackNavigator({
+const RootStack = createDrawerNavigator({
     Home: {
-        screen: HomeScreen,
-        navigationOptions: ({ navigation }) => {
-            return getNavigationOptions(navigation);
-        }
+        screen: HomeScreen
     },
     SecondScreen: {
-        screen: SecondScreen,
-        navigationOptions: ({ navigation }) => {
-            return getEmptyNavigationOptions(navigation);
-        }
+        screen: SecondScreen
     }
 });
 const AppContainer = createAppContainer(RootStack);
