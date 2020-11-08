@@ -1,6 +1,6 @@
-import React from 'react';
-import { Button, Text, TextInput, TouchableOpacity, View } from 'react-native';
-import { SafeAreaView } from 'react-navigation';
+import React, { useEffect } from 'react';
+import { Button, Text, TextInput, TouchableOpacity, View, BackHandler } from 'react-native';
+import { SafeAreaView, StackActions } from 'react-navigation';
 import { DrawerActions, NavigationDrawerProp } from 'react-navigation-drawer';
 
 /**
@@ -12,6 +12,12 @@ type Props = {
 
 const MasterScreen = (props: Props) => {
 
+    useEffect(() => {
+        BackHandler.addEventListener('hardwareBackPress', function () {
+            console.log("Back called");
+            return true;
+        });
+    }, []);
 
     const onMenuPress = () => {
         console.log(props.navigation.state);// { key: 'Home', routeName: 'Home' }
@@ -20,7 +26,14 @@ const MasterScreen = (props: Props) => {
     }
 
     const onButtonPress = () => {
-        props.navigation.navigate("Activity");
+        const pushAction = StackActions.push({
+            routeName: 'Stack1',
+            params: {
+                myUserId: 9,
+            },
+        });
+
+        props.navigation.dispatch(pushAction);
     }
 
 
