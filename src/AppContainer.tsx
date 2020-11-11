@@ -5,9 +5,7 @@ import { ActivityScreen } from './screens/ActivityScreen';
 import { MasterScreen } from './screens/MasterScreen';
 import { createStackNavigator } from 'react-navigation-stack';
 
-const config = {
-    contentComponent: SideMenu
-}
+
 
 const InnerStack = createStackNavigator({
     Stack1: {
@@ -20,12 +18,15 @@ const RootStack = createDrawerNavigator({
         screen: InnerStack
     },
     SecondScreen: {
-        screen: MasterScreen
+        screen: InnerStack
     },
     Activity: {
         screen: ActivityScreen
     }
-}, config);
+}, {
+    contentComponent: SideMenu,
+    backBehavior: "initialRoute"
+});
 const AppContainer = createAppContainer(RootStack);
 
 // Now AppContainer is the main component for React to render

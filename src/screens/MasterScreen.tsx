@@ -13,10 +13,7 @@ type Props = {
 const MasterScreen = (props: Props) => {
 
     useEffect(() => {
-        BackHandler.addEventListener('hardwareBackPress', function () {
-            console.log("Back called");
-            return true;
-        });
+
     }, []);
 
     const onMenuPress = () => {
